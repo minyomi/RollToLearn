@@ -1,0 +1,17 @@
+{    
+    "name": "RollToLearn",  
+    "manifest_version":2,  
+    "version": "1.0",    
+    "description": "coffee test",    
+    "browser_action": {    
+       "default_icon": "rollToLearn.png" ,  
+       "default_title": "My Task List",  
+        "default_popup": "popup.html"  
+     },  
+     "background":{
+       "scripts":["background.js"]
+     }, 
+    "permissions": [     
+     "tabs", "http://*/*","https://*/*"    
+    ]     
+}
